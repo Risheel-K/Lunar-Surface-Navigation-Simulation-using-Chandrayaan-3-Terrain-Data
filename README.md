@@ -99,3 +99,9 @@ This module proves the viability of terrain-aware navigation using only elevatio
     Real-time fallback logic.
 
     Software-only intelligent path computation over high-risk terrain.
+
+Note
+
+    moontest15.py: This script does not implement random mapping. It uses a preprocessed lunar elevation map based on Chandrayaan-3 data with safe and unsafe zones already defined. It is used for structured simulation only.
+
+    moontest16.py: This script is designed for manual path planning. Users can define the start and goal positions, and the rover will compute and follow the path accordingly using A* or other logic as configured.
